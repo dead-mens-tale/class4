@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<html lang="en">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- custom css link -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<title>Class 4</title>
+		<p>
+
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco</h1>
+
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco</h2>
+
+			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco</h3>
+
+			<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco</h4>
+
+			<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco</h5>
+
+			<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco</h6>
+
+		</p>
+
+		<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+		<abbr title="World Health Organization">WHO</abbr>
+
+		<h1>This is address element</h1>
+			<address>
+				Written by <!-- <a href="mailto:webmaster@example.com"> -->Rayad Hassin Khan</a>.<br>
+				Visit us at: Example.com<br>
+				novan5441@gmail.com<br>
+				1230, Dhaka<br>
+				Bangladesh
+			</address>
+
+		<img src="image/winter.jpg" alt="winter" usemap="#winter" width="400" height="">
+
+		<h1>The article element</h1>
+
+			<article>
+  				<h2>Google Chrome</h2>
+  				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+			</article>
+
+			<article>
+  				<h2>Mozilla Firefox</h2>
+  				<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+			</article>
+
+			<article>
+				<h2>Microsoft Edge</h2>
+				<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+			</article>
+
+		<h1>The aside element</h1>
+
+			<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+			<aside>
+  				<h4>Epcot Center</h4>
+  				<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+			</aside>
+
+		<h1>This is audia element</h1>
+			<audio controls>
+				<source src="horse.ogg" type="audio/ogg">
+				<source src="horse.mp3" type="audio/mpeg">
+			</audio>
+
+			<b>This is >b< element</b>
+
+			<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+		<h1>The bdi element</h1>
+			<ul>
+				<li>Gregory <bdi>Alan</bdi>: 60 points</li>
+	 			<li>Eminem <bdi>Mockingbird</bdi>: 80 points</li>
+	 			<li>Bailey Zimmerman <bdi>San Luis</bdi>: 90 points</li>
+			</ul>
+
+																			<!-- notes --> 
+
+		<h1>The bdo element</h1>
+			<p>This paragraph will go left-to-right.</p>  
+
+		<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p> 
+
+		<h1>The blockquote element</h1>
+			<blockquote cite="http://www.worldwildlife.org/who/index.html">
+				For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+			</blockquote>
+
+		<h1>The br element</h1>
+			<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+		<h1>the button element</h1>
+			<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+
+		<h1>The canvas element</h1>
+			<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+		<script>
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			ctx.fillStyle = "#FF0000";
+			ctx.fillRect(0, 0, 80, 100);
+		</script>
+
+		<h1>The caption element</h1>
+			<table>
+			  <caption>Monthly savings</caption>
+			  <tr>
+			    <th>Month</th>
+			    <th>Savings</th>
+			  </tr>
+			  <tr>
+			    <td>January</td>
+			    <td>$100</td>
+			  </tr>
+			  <tr>
+			    <td>February</td>
+			    <td>$50</td>
+			  </tr>
+			</table>
+
+		<h1>The nav element</h1>
+			<p>The nav element defines a set of navigation links:</p>
+				<nav>
+					<a href="/html/">HTML</a> |
+					<a href="/css/">CSS</a> |
+					<a href="/js/">JavaScript</a> |
+					<a href="/python/">Python</a>
+				</nav>
+
+		<h1>The cite element</h1>
+			<img src="image/canyon.jpg" width="400" height="" alt="canyon">
+			<p><cite>Hunter X Hunter</cite> by Yoshihiro Togashi.</p>
+
+		<h1>The code element</h1>
+			<p>The HTML <code>button</code> tag defines a clickable button.</p>
+			<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+		<h1>The col element</h1>
+			<table>
+			  <colgroup>
+			    <col span="2" style="background-color:red">
+			    <col style="background-color:yellow">
+			  </colgroup>
+			  <tr>
+			    <th>ISBN</th>
+			    <th>Title</th>
+ 			   	<th>Price</th>
+			  </tr>
+			  <tr>
+			    <td>3476896</td>
+			    <td>My first HTML</td>
+			    <td>$53</td>
+			  </tr>
+			  <tr>
+			    <td>5869207</td>
+			    <td>My first CSS</td>
+			    <td>$49</td>
+			  </tr>
+			</table>
+
+																			<!-- notes -->
+
+		<h1>The colgroup element</h1>
+			<table>
+			  <colgroup>
+			    <col span="2" style="background-color:red">
+			    <col style="background-color:yellow">
+			  </colgroup>
+			  <tr>
+			    <th>ISBN</th>
+			    <th>Title</th>
+			    <th>Price</th>
+			  </tr>
+			  <tr>
+			    <td>3476896</td>
+			    <td>My first HTML</td>
+			    <td>$53</td>
+			  </tr>
+			  <tr>
+			    <td>5869207</td>
+			    <td>My first CSS</td>
+			    <td>$49</td>
+			  </tr>
+			</table>
+
+																			<!-- notes -->
+
+		<h1>The data element</h1>
+			<p>The following example displays product names but also associates each name with a product number:</p>
+				<ul>
+				  <li><data value="21053">Cherry Tomato</data></li>
+				  <li><data value="21054">Beef Tomato</data></li>
+				  <li><data value="21055">Snack Tomato</data></li>
+				</ul>
+
+																			<!-- notes -->
+
+		<h1>The datalist element</h1>
+			<form action="/action_page.php" method="get">
+			  <label for="browser">Choose your browser from the list:</label>
+			  <input list="browsers" name="browser" id="browser">
+			  <datalist id="browsers">
+			    <option value="Edge">
+			    <option value="Firefox">
+			    <option value="Chrome">
+			    <option value="Opera">
+			    <option value="Safari">
+			  </datalist>
+			  <input type="submit">
+			</form>
+
+			<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+		<h1>The dl, dd, and dt elements</h1>
+
+			<p>These three elements are used to create a description list:</p>
+				<dl>
+				  <dt>Coffee</dt>
+				  <dd>Black hot drink</dd>
+				  <dt>Milk</dt>
+				  <dd>White cold drink</dd>
+				</dl>
+		<h1>The del element</h1>
+			<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+		<h1>The details element</h1>
+
+			<details>
+			 <summary>Epcot Center</summary>
+			 <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+			</details>
+
+		<h1>The dfn element</h1>
+			<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+		<h1>The div element</h1>
+			<div class="myDiv">
+			  <h2>This is a heading in a div element</h2>
+			  <p>This is some text in a div element.</p>
+			</div>
+			<p>This is some text outside the div element.</p>
+
+		<h1>The dl, dd, and dt elements</h1>
+			<p>These three elements are used to create a description list:</p>
+				<dl>
+				  <dt>Coffee</dt>
+				  <dd>Black hot drink</dd>
+				  <dt>Milk</dt>
+				  <dd>White cold drink</dd>
+				</dl>
+
+																			<!-- notes -->
+
+		<h1>The em element</h1>
+			<p>You <em>have</em> to hurry up!</p>
+			<p>We <em>cannot</em> live like this.</p>
+
+		<!-- <h1>The embed element</h1>
+			<embed type="text/html" src="snippet.html"  width="500" height="200"> -->
+
+		<!-- <h1>The embed-image element</h1>
+			<embed type="image/poppies.jpg" src="pic_trulli.jpg" width="300" height="200"> -->
+
+		<!-- <h1>The embed-video elemet</h1>
+			<embed type="video/webm" src="movie.mp4" width="400" height="300"> -->
+
+																			<!-- notes -->
+
+		<h1>The fieldset element</h1>
+			<form action="/action_page.php">
+			 <fieldset>
+			  <legend>Personalia:</legend>
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:</label>
+			  <input type="text" id="lname" name="lname"><br><br>
+			  <label for="email">Email:</label>
+			  <input type="email" id="email" name="email"><br><br>
+			  <label for="birthday">Birthday:</label>
+			  <input type="date" id="birthday" name="birthday"><br><br>
+			  <input type="submit" value="Submit">
+			 </fieldset>
+			</form>
+
+		<h1>The figure and figcaption element</h1>
+			<figure>
+			  <img src="image/firsherman.jpg" alt="firsherman" style="width:100%">
+			  <figcaption>Fig.1 - fisherman, Japan.</figcaption>
+			</figure>
+
+		<h1>The figure and figcaption element</h1>
+			<figure>
+			  <img src="image/bon.jpg" alt="bon">
+			  <figcaption>Fig.1 - tress, dence, jungle.</figcaption>
+			</figure>
+
+																			<!-- notes -->
+
+		<h1>The form element</h1>
+			<form action="/action_page.php">
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:</label>
+			  <input type="text" id="lname" name="lname"><br><br>
+			  <input type="submit" value="Submit">
+			</form>
+			<p>Click the "Submit" button and the form-data will be sent to a page on the 
+			server called "action_page.php".</p>
+
+		<h1>The header element</h1>
+  			<header>
+    			<h1>A heading here</h1>
+    			<p>Posted by John Doe</p>
+    			<p>Some additional information here</p>
+    			<p>Lorem Ipsum dolor set amet....</p>
+  			</header>
+  			
+		<h1>The Main Languages of the Web</h1>
+			<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+		<hr>
+			<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+		<hr>
+			<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+		<h1>The i element</h1>
+			<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+			<p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+		<h1>The iframe element</h1>
+			<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+			</iframe>
+
+																			<!-- notes -->
+
+		<h1>The input element</h1>
+			<form action="/action_page.php">
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:</label>
+			  <input type="text" id="lname" name="lname"><br><br>
+			  <input type="submit" value="Submit">
+			</form>
+
+			<p>Click the "Submit" button and the form-data will be sent to a page on the 
+			server called "action_page.php".</p>
+
+		<h1>The ins element</h1>
+			<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+		<h1>The kbd element</h1>
+			<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+			<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+		<h1>The label element</h1>
+			<p>Click on one of the text labels to toggle the related radio button:</p>
+				<form action="/action_page.php">
+				  <input type="radio" id="html" name="fav_language" value="HTML">
+				  <label for="html">HTML</label><br>
+				  <input type="radio" id="css" name="fav_language" value="CSS">
+				  <label for="css">CSS</label><br>
+				  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+				  <label for="javascript">JavaScript</label><br><br>
+				  <input type="submit" value="Submit">
+				</form>
+
+		<h1>The legend element</h1>
+			<form action="/action_page.php">
+			 <fieldset>
+			  <legend>Personalia:</legend>
+
+			  <label for="fname">First name:
+			  </label>
+
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:
+			  </label>
+
+			  <input type="text" id="lname" name="lname"><br><br>
+			  <label for="email">Email:
+			  </label>
+
+			  <input type="email" id="email" name="email"><br><br>
+			  <label for="birthday">Birthday:
+			  </label>
+
+			  <input type="date" id="birthday" name="birthday"><br><br>
+			  <input type="submit" value="Submit">
+			 </fieldset>
+
+			</form>
+
+		<h1>The ol and ul elements</h1>
+			<p>The ol element defines an ordered list:</p>
+			<ol>
+			  <li>Coffee</li>
+			  <li>Tea</li>
+			  <li>Milk</li>
+			</ol>
+
+			<p>The ul element defines an unordered list:</p>
+			<ul>
+			  <li>Coffee</li>
+			  <li>Tea</li>
+			  <li>Milk</li>
+			</ul>
+
+		<h1>Hello World!</h1>
+			<h2>I am formatted with a linked style sheet.</h2>
+			<p>Me too!</p>
+
+		<h1>The main element</h1>
+			<main>
+		  		<h1>Most Popular Browsers</h1>
+		  		<p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+  				<article>
+    				<h2>Google Chrome</h2>
+    				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  				</article>
+  				<article>
+    				<h2>Mozilla Firefox</h2>
+    				<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  				</article>
+  				<article>
+    				<h2>Microsoft Edge</h2>
+    				<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  				</article>
+			</main>
+
+				<h1>The map and area elements</h1>
+					<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+					<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+					<map name="workmap">
+  						<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  						<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  						<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+					</map>
+
+				<h1>The mark element</h1>
+					<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+	<!-- 60 -->
+
+				<h1>The meter element</h1>
+					<p>The meter element is used to display a gauge:</p>
+					<label for="disk_c">Disk usage C:</label>
+					<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+					<label for="disk_d">Disk usage D:</label>
+					<meter id="disk_d" value="0.6">60%</meter>
+					<p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+
+				<h1>The noscript element</h1>
+
+					<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+					<script>
+					document.write("Hello World!")
+					</script>
+
+					<noscript>Sorry, your browser does not support JavaScript!
+					</noscript>
+
+					<object>
+						<h1>The object element</h1>
+						<object data="image/sunrise.jpg" width="300" height="200"></object>
+					</object>
+
+					<ol>
+						<h1>The ol element</h1>
+						<ol>
+  							<li>Coffee</li>
+  							<li>Tea</li>
+  							<li>Milk</li>
+						</ol>
+						<ol start="50">
+						  <li>Coffee</li>
+						  <li>Tea</li>
+						  <li>Milk</li>
+						</ol>
+					</ol>
+
+					<optgroup>
+						<h1>The optgroup element</h1>
+							<p>The optgroup tag is used to group related options in a drop-down list:</p>
+							<form action="/action_page.php">
+							  <label for="cars">Choose a car:</label>
+							  <select name="cars" id="cars">
+							    <optgroup label="Swedish Cars">
+							      <option value="volvo">Volvo</option>
+							      <option value="saab">Saab</option>
+							    </optgroup>
+							    <optgroup label="German Cars">
+							      <option value="mercedes">Mercedes</option>
+							      <option value="audi">Audi</option>
+							    </optgroup>
+							  </select>
+							  <br><br>
+							  <input type="submit" value="Submit">
+							</form>
+					</optgroup>
+
+					<option>
+						<h1>The option element</h1>
+						<label for="cars">Choose a car:</label>
+						<select id="cars">
+						  <option value="volvo">Volvo</option>
+						  <option value="saab">Saab</option>
+						  <option value="opel">Opel</option>
+						  <option value="audi">Audi</option>
+						</select>
+					</option>
+
+					<output>
+						<h1>The output element</h1>
+						<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+						<input type="range" id="a" value="50">
+						+<input type="number" id="b" value="25">
+						=<output name="x" for="a b"></output>
+						</form>
+						<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+					</output>
+
+					<h1>The section element</h1>
+						<section>
+						  <h2>WWF History</h2>
+						  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+						</section>
+
+						<section>
+						  <h2>WWF's Symbol</h2>
+						  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+						</section>
+
+
+						<h1>The footer element</h1>
+							<footer>
+								<p>Author: Hege Refsnes<br>
+								<a href="mailto:hege@example.com">hege@example.com</a></p>
+							</footer>
+
+
+																				<!-- notes -->
+						<h1>The select element</h1>
+							<p>The select element is used to create a drop-down list.</p>
+							<form action="/action_page.php">
+							  <label for="cars">Choose a car:</label>
+							  <select name="cars" id="cars">
+							    <option value="volvo">Volvo</option>
+							    <option value="saab">Saab</option>
+							    <option value="opel">Opel</option>
+							    <option value="audi">Audi</option>
+							  </select>
+							  <br><br>
+							  <input type="submit" value="Submit">
+							</form>
+							<p>Click the "Submit" button and the form-data will be sent to a page on the 
+							server called "action_page.php".</p>
+
+						<h1>The small element</h1>
+							<p>This is some normal text.</p>
+							<p><small>This is some smaller text.</small></p>
+
+						<h1>The span element</h1>
+
+							<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+						<h1>The strong element</h1>
+							<p>This text is normal.</p>
+							<p><strong>This text is important!</strong></p>
+
+
+						<h1>The sub and sup elements</h1>
+							<p>This text contains <sub>subscript</sub> text.</p>
+							<p>This text contains <sup>superscript</sup> text.</p>
+
+
+						<h1>The summary element</h1>
+							<details>
+							  <summary>Epcot Center</summary>
+							  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+							</details>
+
+
+						<h1>The svg element</h1>
+							<svg width="100" height="100">
+							  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+							  Sorry, your browser does not support inline SVG.
+							</svg>
+
+						
+						<h1>The time element</h1>
+							<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+							<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+							<p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+
+
+						<h1>The u element</h1>
+							<p>This is some <u>mispeled</u> text.</p>
+
+						<h1>The var element</h1>
+							<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+
+</body>
+</html>
